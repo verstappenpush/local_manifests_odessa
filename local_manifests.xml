@@ -3,19 +3,19 @@
   <remote name="cool585" fetch="https://github.com/cool585"/>
   <remote name="LineagOS" fetch="https://github.com/LineageOS"/>
   <remote name="Thiago22" fetch="https://github.com/thz22"/>
-  <remote name="frost" fetch="https://github.com/Frost444"/>
+  <remote name="frost" fetch="https://github.com/verstappenpush"/>
   <remote name="Thiago" fetch="https://github.com/thiagochizz44"/>
   
 <!--Trees-->
   <project path="device/motorola/odessa"
-           name="android_device_motorola_odessa-13"
+           name="android_device_motorola_odessa"
            remote="frost"
-           revision="crdroid" />
+           revision="thirteen" />
            
   <project path="device/motorola/sm6150-common"
-           name="device_motorola_sm6150-common-15"
+           name="android_device_motorola_sm6150-common"
            remote="frost"
-           revision="fourteen-test" />
+           revision="thirteen" />
            
   <project path="kernel/motorola/sm6150"
            name="kernel_motorola_liber"
@@ -25,15 +25,15 @@
     <project path="hardware/motorola"
            name="android_hardware_motorola"
            remote="LineagOS"
-           revision="lineage-21" />
+           revision="lineage-20" />
   
   <project path="system/qcom"
            name="android_system_qcom"
            remote="LineagOS"
-           revision="lineage-21" />
+           revision="lineage-20" />
 
   <project path="vendor/motorola"
            name="proprietary_vendor_motorola"
-           remote="Thiago22"
-           revision="qpr3" />  
+           remote="frost"
+           revision="lineage-20.0" />  
 </manifest>
