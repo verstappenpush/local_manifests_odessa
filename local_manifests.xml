@@ -18,9 +18,9 @@
            revision="thirteen" />
            
   <project path="kernel/motorola/sm6150"
-           name="kernel_motorola_liber"
+           name="android_kernel_motorola_sm6150"
            remote="frost"
-           revision="sap" />
+           revision="lineage-20.0" />
 
     <project path="hardware/motorola"
            name="android_hardware_motorola"
